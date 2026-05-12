@@ -20,7 +20,22 @@ An AI-powered cybersecurity tool that analyzes suspicious emails and detects phi
 
 ## 📸 Screenshots
 
-(Add screenshots here)
+
+### 🏠 Homepage
+
+![Homepage](screenshots/home.png)
+
+---
+
+### 🔍 Email Analysis
+
+![Analysis](screenshots/analysis.png)
+
+---
+
+### 🛡️ AI Result
+
+![Result](screenshots/result.png)
 
 ## ⚡ Installation
 
