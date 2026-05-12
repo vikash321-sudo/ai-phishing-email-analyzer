@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Phishing Analyzer</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🛡️ AI-Powered Phishing Email Analyzer</h1>
+
+        <p class="subtitle">
+            Analyze suspicious emails using AI + Cybersecurity intelligence
+        </p>
+
+        <form method="POST">
+
+            <textarea
+                name="email_content"
+                placeholder="Paste suspicious email here..."
+                required
+            ></textarea>
+
+            <button type="submit">
+                Analyze Email
+            </button>
+
+        </form>
+
+        {% if result %}
+
+        <div class="result-box">
+
+            <h2>Analysis Result</h2>
+
+            <pre>{{ result }}</pre>
+
+        </div>
+
+        {% endif %}
+
+    </div>
+
+</body>
+</html>
